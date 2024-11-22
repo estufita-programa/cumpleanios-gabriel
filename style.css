@@ -26,7 +26,7 @@ main {
   color: #fff;
   text-align: center;
   position: relative;
-  background: url("../img/20240921_185643.jpg") no-repeat center center fixed;
+  background: url("background (1).jpg") no-repeat center center fixed;
   background-size: cover;
   z-index: 1;
 }
