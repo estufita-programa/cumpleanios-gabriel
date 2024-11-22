@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  main {
+    height: 710px;
+  }
+  .btns {
+    gap: 50vh;
+    justify-content: space-between;
+  }
+  .section-information {
+    margin: 0 60px;
+    padding: 60px 0;
+  }
+  .content-information {
+    flex-direction: row;
+  }
+}
