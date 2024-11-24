@@ -26,7 +26,7 @@ main {
   color: #fff;
   text-align: center;
   position: relative;
-  background: url("../img/background\ \(3\).jpg") no-repeat center right fixed;
+  background: url("background\ \(3\).jpg") no-repeat center right fixed;
   background-size: cover;
   z-index: 1;
 }
