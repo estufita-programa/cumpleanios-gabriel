@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: "Hina Micho", serif;
+  font-family: "Funnel Sans", sans-serif;
 }
 body {
   background: #090d00;
@@ -26,7 +26,7 @@ main {
   color: #fff;
   text-align: center;
   position: relative;
-  background: url("background (1).jpg") no-repeat center center fixed;
+  background: url("../img/background\ \(3\).jpg") no-repeat center right fixed;
   background-size: cover;
   z-index: 1;
 }
@@ -50,9 +50,9 @@ h1 {
   /* color: rgba(255, 255, 255, 0.392); */
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 2px;
-  font-weight: 300;
+  font-weight: bold;
 }
 .btns {
   gap: 30px;
@@ -67,6 +67,8 @@ h2 {
 .confirmar > p > a {
   display: table;
   font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .btns > .informacion > p > a::after,
 .btns > .asistencia > p > a::after,
@@ -103,7 +105,8 @@ h2 {
   flex-direction: column;
 }
 .mapa,
-.datos {
+.datos,
+.opcion-regalo {
   display: flex;
   padding: 40px;
   flex: 50%;
@@ -129,8 +132,10 @@ h2 {
 .datos-extras > h3 {
   padding: 10px 0 20px;
 }
-.datos > ul > li,
-.datos-extras > ul > li {
+.datos > ul {
+  margin: 0;
+}
+.datos > ul > li {
   padding: 10px;
   font-size: 18px;
   text-align: start;
@@ -144,9 +149,9 @@ h2 {
   border: 2px solid black;
 }
 
-.confirmar {
+/* .confirmar {
   margin: 40px 0;
-}
+} */
 .confirmar > p > a {
   font-size: 20px;
   font-weight: bold;
